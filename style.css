@@ -10,6 +10,13 @@
   .container {
       margin-top: 20px;
   }
+
+  .count-down {
+    position: absolute;
+    right: 0;
+    margin-right: 20px;
+    margin-top: 2px;
+  }
   
   .form-header {
       margin-bottom: 20px;
@@ -32,20 +39,8 @@
     text-align: center;
 }
 
-#timer {
-    border: 0;
-    background-color: #f8f9fa!important;
-    position: fixed;
-    right: 0;
-    margin-right: -90px;
+#score-list {
+    margin-bottom: 20px;
+    padding: 20px;
 }
 
-/* #all-done {
-    text-align: center;
-} */
-
-
-
-@media screen and (max-width: 1200px) {
-
-}
