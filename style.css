@@ -1,0 +1,51 @@
+* {
+    box-sizing: border-box;
+  }
+
+  .btn {
+      background-color: #457B9D;
+      color: white;
+  }
+
+  .container {
+      margin-top: 20px;
+  }
+  
+  .form-header {
+      margin-bottom: 20px;
+  }
+
+  .btn {
+    margin-bottom: 20px;
+  }
+
+  .form-inline {
+      text-align: center;
+  }
+
+#highscores {
+    color: #1D3557;
+    font-size: 24px;
+}
+
+#start-page {
+    text-align: center;
+}
+
+#timer {
+    border: 0;
+    background-color: #f8f9fa!important;
+    position: fixed;
+    right: 0;
+    margin-right: -90px;
+}
+
+/* #all-done {
+    text-align: center;
+} */
+
+
+
+@media screen and (max-width: 1200px) {
+
+}
