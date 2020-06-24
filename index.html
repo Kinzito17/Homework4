@@ -14,105 +14,27 @@
 
 <body>
 
-    <header>
+    <!-- clickable logo that will bring you to highscores page -->
+    <a id="highscores" href="highscores.html">View Highscores</a>
 
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-
-            <a class="nav justify-content-start" id="highscores" href="highscores.html">View Highscores</a>
-
-            <div class="count-down">
-
-                Time: <span id="timer">75</span>
-
-            </div>
-
-        </nav>
-
-    </header>
-
-    <div class="container" id="start-page">
-
-        <h1>Coding Quiz Challenge</h1>
-
-        <p> Try to answer the following code-related questions within the time limit. Keep in mind that incorrect
-            answers will penalize your time left by 10 seconds!</p>
-
-        <button type="button" class="btn" id="start-quiz">Start Quiz</button>
-
-    </div>
+    <!-- countdown timer -->
+    <div id="countdown"></div>
 
     <div class="container">
 
-        <form class="questions" id="q1">
+        <!-- div where the questions will live -->
+        <div id="questions">
 
-            <h2 class="form-header">Commonly used data types DO NOT include:</h2>
 
-            <button type="button" class="btn">1. Strings</button> <br>
+            <h1>Coding Quiz Challenge</h1>
 
-            <button type="button" class="btn">2. Booleans</button> <br>
+            <p> Try to answer the following code-related questions within the time limit. Keep in mind that incorrect
+                answers will penalize your time by 10 seconds!</p>
 
-            <button type="button" class="btn">3. Alerts</button> <br>
+            <!-- button to start quiz -->
+            <button type="button" class="btn" id="start-quiz">Start Quiz</button>
 
-            <button type="button" class="btn">4. Numbers</button> <br>
-
-        </form>
-
-        <form class="questions" id="q2">
-
-            <h2 class="form-header">The condition in an if / else statement is enflosed within ____.</h2>
-
-            <button type="button" class="btn">1. Quotes</button> <br>
-
-            <button type="button" class="btn">2. Curly Brackets</button> <br>
-
-            <button type="button" class="btn">3. Parenthesis</button> <br>
-
-            <button type="button" class="btn">4. Square Brackets</button> <br>
-
-        </form>
-
-        <form class="questions" id="q3">
-
-            <h2 class="form-header">Arrays in JavaScript can be used to store ____.</h2>
-
-            <button type="button" class="btn">1. Numbers and Strings</button> <br>
-
-            <button type="button" class="btn">2. Other Arrays</button> <br>
-
-            <button type="button" class="btn">3. Booleans</button> <br>
-
-            <button type="button" class="btn">4. All of the Above</button> <br>
-
-        </form>
-
-        <form class="questions" id="q4">
-
-            <h2 class="form-header">String values must be enclosed within ____ when being assigned to variables.</h2>
-
-            <button type="button" class="btn">1. Commas</button> <br>
-
-            <button type="button" class="btn">2. Curly Brackets</button> <br>
-
-            <button type="button" class="btn">3. Quotes</button> <br>
-
-            <button type="button" class="btn">4. Parenthesis</button> <br>
-
-        </form>
-
-        <form class="questions" id="q5">
-
-            <h2 class="form-header">A very useful tool used during development and debugging for printing content to the
-                debugger is:</h2>
-
-            <button type="button" class="btn">1. JavaScript</button> <br>
-
-            <button type="button" class="btn">2. Terminal / Bash</button> <br>
-
-            <button type="button" class="btn">3. For Loops</button> <br>
-
-            <button type="button" class="btn">4. Console.log</button> <br>
-
-        </form>
+        </div>
 
     </div>
 
