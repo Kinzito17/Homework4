@@ -90,6 +90,7 @@ function render(questionsIndex) {
     })
 };
 
+//compares submitted answer to answer key
 function compare(event) {
     var element = event.target;
     if (element.matches("li")) {
